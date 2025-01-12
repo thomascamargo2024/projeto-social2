@@ -17,13 +17,15 @@ body{
 
 main{
     position: relative;
-    height: 100vh;
+    height: 95vh;
     
 }
 
 #menu{
-    text-align: center;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
 }
 
 img{
@@ -41,7 +43,7 @@ img:hover{
 }
 
 a{
-    padding-left:20px;
+    padding-left: -20px;
 }
 
 #tela{
@@ -61,8 +63,5 @@ a{
     transform: translate(-50%, -50%);
     background-image: url(imagens/frame-iphone.png);
     background-repeat: no-repeat;
-}
-img{
-
 }
   
